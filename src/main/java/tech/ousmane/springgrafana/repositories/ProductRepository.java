@@ -1,0 +1,7 @@
+package tech.ousmane.springgrafana.repositories;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import tech.ousmane.springgrafana.entities.Product;
+
+public interface ProductRepository extends JpaRepository<Product, Long> {
+}
