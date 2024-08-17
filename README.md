@@ -31,8 +31,8 @@ cd <repository_directory>`
 3. Access Grafana:
 Navigate to `http://localhost:3000` in your browser.
 Login with the default credentials:
-Username: admin
-Password: password
+- Username: admin
+- Password: password
 4. Import Dashboards:
 - Add data sources for Prometheus, Loki, and Tempo in Grafana.
 - Import relevant dashboards to monitor logs, traces, and metrics.
